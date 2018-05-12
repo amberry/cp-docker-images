@@ -12,9 +12,9 @@ Installing and Running Docker
 
 For this tutorial, we'll run Docker using Docker Compose.
 
-To get started, you will first need to install `Docker <https://docs.docker.com/engine/installation/>`_ and `Docker Compose <https://docs.docker.com/compose/install/>`_.  The Confluent Platform Docker Images require Docker version 1.11 or greater.
+To get started, you will first need to install `Docker <https://docs.docker.com/engine/installation/>`_ and `Docker Compose <https://docs.docker.com/compose/install/>`_.  The |cp| Docker Images require Docker version 1.11 or greater.
 
-Once you've done that, you can follow the steps below to start up the Confluent Platform services.
+Once you've done that, you can follow the steps below to start up the |cp| services.
 
 1. Create and configure the Docker Machine (OS X only).
 
@@ -28,7 +28,7 @@ Once you've done that, you can follow the steps below to start up the Confluent 
 
     eval $(docker-machine env confluent)
 
-2. Clone the Confluent Platform Docker Images Github Repository.
+2. Clone the |cp| Docker Images Github Repository.
 
   .. sourcecode:: bash
 
